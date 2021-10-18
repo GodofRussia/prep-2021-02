@@ -4,7 +4,9 @@ HDRS_DIR = project/include
 # XXX: Don't forget backslash at the end of any line except the last one
 SRCS = \
        project/src/main.c \
-       project/src/utils.c
+       project/src/utils.c \
+       project/src/is-simple.c \
+       project/src/num-erupter.c
 
 .PHONY: all build rebuild check test clean
 
